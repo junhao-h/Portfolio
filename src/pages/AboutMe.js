@@ -1,5 +1,5 @@
 import AboutMeBio from "../components/about/AboutMeBio";
-import AboutCounter from "../components/about/AboutCounter";
+//import AboutCounter from "../components/about/AboutCounter";
 import AboutSkills from "../components/about/AboutSkills";
 import { AboutMeProvider } from "../context/AboutMeContext";
 import { motion } from "framer-motion";
