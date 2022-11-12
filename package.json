@@ -1,12 +1,14 @@
 {
-	"name": "react-tailwindcss-portfolio",
+	"name": "junhao-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"-": "^0.0.1",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
 		"framer-motion": "4.1.17",
+		"gh-pages": "^4.0.0",
 		"postcss-cli": "^10.0.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
@@ -15,6 +17,7 @@
 		"react-router-dom": "^6.0.2",
 		"react-scripts": "^5.0.1",
 		"react-scroll": "^1.8.4",
+		"save-dev": "^0.0.1-security",
 		"styled-components": "^5.3.3",
 		"web-vitals": "^1.0.1"
 	},
@@ -23,7 +26,9 @@
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
