@@ -75,17 +75,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Ouch! is a 2D puzzle game situated in a laboratory where unethical experimentation is performed on animals. The game starts with the player waking up to find all the animals breaking out of their cages for some unknown reason. The goal of the player is to escape the chaotic laboratory and find out the mysteries behind this place.",
+            "Ouch! is a 2D puzzle game located in a laboratory where animal experimentation is performed. The game starts with the player waking up to find all the animals breaking out of their cage. Without knowing anything, the objective of the player is to escape the chaotic laboratory and find out the mysteries behind this place.",
         },
         {
           id: 2,
           details:
-            "In this game all animals are hostile and will kill the player if the player were to touch them. The player is introduced with the ability to possess the animals in his line of sight, this allow the player to control the animal to use their innate ability to solve the puzzle.",
+            "In this game, all animals are hostile and will kill the player if the player were to touch them. The player is introduced with the ability to possess the animals in his line of sight, this allows the player to control the animal to use their innate ability to solve the puzzle.",
         },
         {
           id: 3,
           details:
-            "The game is suppose to end with the player realizing that he is the unethical behind this research laboratory, however the main story is left told due to the lack of time and the focus on gameplay.",
+            "The game ends with the player realizing that he is the mad scientist behind this unethical research laboratory.",
         },
       ],
     },
@@ -149,7 +149,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create a game with Alpha Engine, a digipen provided graphics renderer to build a 2D game.",
+        "Create a game with Alpha Engine, a DigiPen-provided graphics renderer to build a 2D game.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -161,17 +161,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Povertea is a 2D top-down, endless beverage shop management simulator. The player runs a beverage cafe, and has to handle taking orders, concocting drinks and serving customers. All while having to achieve a target profit or lose the game by running out of money.",
+            "Povertea is a 2D top-down, endless beverage shop management simulator. The player runs a beverage cafe and has to manage orders, concoct drinks and serve customers. All while having to achieve a target profit or lose the game by running out of money.",
         },
         {
           id: 2,
           details:
-            "The main inspiration behind Povertea is basically Overcooked with the financial management. With the intention of not running out of money in mind, the player goal is just to end the day without a net loss. Customers are the only source of income for the player, however they can penalize the player if they do not obtain their drinks after a certain duration. In Povertea, many of the players interactions require a certain form of transaction, the player can lose money by just picking up a new cup or using any ingredients to concoct the drinks. Hence the player has to be careful not to waste money concocting the wrong drinks.",
+            "The main inspiration behind Povertea is Overcooked with financial management. With the intention of not running out of money in mind, the player's goal is just to end the day without a net loss. Customers are the only source of income for the player, however, they can penalize the player if they do not obtain their drinks after a certain duration. In Povertea, many of the players' interactions require a certain form of transaction, the player can lose money by just picking up a new cup or using any ingredients to concoct the drinks. Hence the player has to be careful not to waste money concocting the wrong drinks.",
         },
         {
           id: 3,
           details:
-            "Later into the game, the drinks that customer ask for a wide range of color shades. The player has to mix and match the drinks from the dispensor to match the color of the drink that the customers demands.",
+            "Later into the game, the drinks the customer asks for comes in a wide range of colour shades. To achieve the customers' demand the player has to mix and match the drink, to get the right shade of colour.",
         },
       ],
     },
@@ -229,7 +229,7 @@ export const singleProjectData = {
         },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails: "Explore creating an AR application with Unity",
+      ObjectivesDetails: "Create an AR navigation application with C# and Unity.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -241,17 +241,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Problem: Digipen classroom names are confusing, I have to constantly look where the classroom as the classroom name does not explain much!",
+            "Problem: Digipen classroom names are confusing, students have to constantly look up the classroom location as the classroom name does not explain much!",
         },
         {
           id: 2,
           details:
-            "Solution: Make an AR indoor pathfinding application that can track the user current location and lead them to their designated classroom. The application uses cloud anchors as nodes to perform Bellman-Ford algorithm to get the shortest path to the classroom.",
+            "Solution: Make an AR indoor pathfinding application that tracks the user's current location and leads them to their designated classroom. The application uses cloud anchors as nodes to perform the Bellman-Ford algorithm to get the shortest path to their destination.",
         },
         {
           id: 3,
           details:
-            "Challenges: Due to time constraint, Cloud Anchors have to be hard coded into the application.",
+            "Challenges: Due to time constraints, Cloud Anchors had to be hard coded into the application.",
         },
       ],
     },
@@ -315,7 +315,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create a custom Game Engine and build a 2D Game with it.",
+        "Create a custom 2D Game Engine and build a 2D Game with it.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -338,12 +338,12 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Grav-Nav is build with a custom 2D game editor build with ImGui. The game engine follows Unity layout so that the designers have an easier time using the game engine. The Game Engine uses custom ECS for the data management and for scripting C++ is used as everyone in the team is proficient in C++.",
+            "Grav-Nav is built with a custom 2D game editor built with ImGui. The game engine follows Unity's layout so that the designers have an easier time using the game engine. The Game Engine uses custom ECS for data management and for scripting C++ is used as everyone in the team is proficient in C++.",
         },
         {
           id: 2,
           details:
-            "Grav-Nav is a 2D puzzle platformer game where the player can manipulate gravity to solve puzzles. The gravity only affect the player initially, but as the game progress more obstacles are introduced and some of the obstacles move along with the gravity change.",
+            "Grav-Nav is a 2D puzzle platformer game where the player can manipulate gravity to solve puzzles. The gravity only affects the player initially, but as the game progress more obstacles are introduced and some of the obstacles move along with the gravity change.",
         },
       ],
     },
@@ -407,7 +407,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create a custom Game Engine and build a 3D Game with it.",
+        "Create a custom 3D Game Engine and build a 3D Game with it.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -431,17 +431,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Singapore has militarized its land to prevent foreign forces from invading its territory with the help of Artificial Intelligence. However, a glitch in the system has turned the AI hostile! In order to rectify the situation, the developer of the AI has to get access to the server and fix the glitch. Project PATHBOT is an operation to create a machine that can path itself to the command center.",
+            "Singapore has militarized its land to prevent foreign forces from invading its territory with the help of Artificial Intelligence. However, a glitch in the system has turned the AI hostile! To rectify the situation, the developer of the AI has to get access to the server and fix the glitch. Project PATHBOT is an operation to create a machine that can path itself to the command centre.",
         },
         {
           id: 2,
           details:
-            "PathBot is a 3D reverse tower defense game with 2 unique phases. The first phase require the player to customize an build a machine. While the second phase is when the machine is deployed to clear an obstacle course.",
+            "PathBot is a 3D reverse tower defence game with 2 unique phases. The first phase requires the player to customize and build a machine. While the second phase is when the machine is deployed to clear an obstacle course.",
         },
         {
           id: 3,
           details:
-            "In this game, the game has to be build on our custom 3D editor. Hence we have to build an ingame editor with our game engine which is quite a challenge. Although we manage to get the gameplay to work, too much manpower is spent on making the game work instead of making it fun. Hence this game is a failed project purely due to the lack in consideration of the game design.",
+            "In this game, the game has to be built on our custom 3D editor. Hence we have to build an in-game editor with our game engine which is quite a challenge. Although we manage to get the gameplay to work, too much manpower is spent on making the game work instead of making it fun. Hence this game is a failed project purely due to the neglect of the game design.",
         },
       ],
     },
@@ -506,7 +506,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create a custom Game Engine and build a 3D Game with it.",
+        "Create a custom 3D Game Engine and build a 3D Game with it.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -531,17 +531,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "The player is the sole engineer maintaining a toy island. However, something malfunction and the security system of the island starts to run amok. In order to calm things down, the engineer has to go to the island and reset the control unit at the clocktower.",
+            "The player is the sole engineer maintaining a toy island. However, the security system malfunctioned and the island starts to run amok. To calm things down, the engineer has to go to the island and reset the control unit at the clock tower.",
         },
         {
           id: 2,
           details:
-            "UP is a first-person puzzle in a Ludibrum inspired setting where the player scales a tower to fix the clocktower. The main game mechanic of the game revolves around the vacuum gun where the player can suck object from afar and can disassmble the parts to build platforms.",
+            "UP is a first-person puzzle in a Ludibrum-inspired setting where the player scales a tower to fix the clock tower. The main game mechanic of the game revolves around the vacuum gun where the player can suck objects from afar and can disassemble the parts to build platforms.",
         },
         {
           id: 3,
           details:
-            "The game is build with custom 3D game engine. Despite how the game look, the game is not made by any artist, everything is done by developers.",
+            "The game is built with a custom 3D game engine. Despite how the game looks, the game is not made by any artist, everything is done by developers.",
         },
       ],
     },
@@ -611,7 +611,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create and deploy a multinational static website with React and NextJs",
+        "Create and deploy a multinational static website with React and NextJs.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -630,7 +630,7 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "My first experience in creating a website. The website uses strapi to manage the backend database to store all the data. The website need to take into consideration multi-language support, hence there need to be a language switching support. The website uses i18n initally for international routing, however i18n does not support export. Hence, I have to develop an custom method to reroute for static side generation.",
+            "My first experience in creating a website. The website uses Strapi to manage the backend database to store all the data. The website needs to take into consideration multi-language support, hence there needs to be language-switching support. The website uses i18n initially for international routing, however, i18n does not support export. Hence, I have to develop a custom method to reroute for static side generation.",
         },
       ],
     },
@@ -701,7 +701,7 @@ export const singleProjectData = {
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create and deploy a multinational static website with React and NextJs",
+        "Create and deploy a multinational static website with React and NextJs.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -720,7 +720,7 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "In Simplly, there is a greater emphasis on making the website feel more responsive. Breakpoints are used more intentionally to adjust how the page look based on the screen width. This website is where I learn about Firebase cloud functions and other backend stuff.",
+            "There is a greater emphasis on making the website feel more responsive. Breakpoints are used more intentionally to adjust how the page looks based on the screen width. This website is where I learn about Firebase cloud functions and other backend development.",
         },
       ],
     },

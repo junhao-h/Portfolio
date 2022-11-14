@@ -1,4 +1,4 @@
-import { BrowserRouter as HashRouter , Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import AppFooter from "./components/shared/AppFooter";
 import AppHeader from "./components/shared/AppHeader";
@@ -16,7 +16,7 @@ function App() {
     <html lang="en">
       <AnimatePresence>
         <div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
-          <HashRouter >
+          <Router basename="/portfolio">
             <ScrollToTop />
             <AppHeader />
             <Routes>
@@ -28,7 +28,7 @@ function App() {
               <Route path="contact" element={<Contact />} />
             </Routes>
             <AppFooter />
-          </HashRouter>
+          </Router>
           <UseScrollToTop />
         </div>
       </AnimatePresence>

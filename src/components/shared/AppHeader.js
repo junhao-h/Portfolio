@@ -13,6 +13,12 @@ const AppHeader = () => {
   const [showModal, setShowModal] = useState(false);
   const [activeTheme, setTheme] = useThemeSwitcher();
 
+  function toggleTheme()
+  {
+    setTheme(activeTheme);
+            window.location.reload(false);
+  }
+
   function toggleMenu() {
     if (!showMenu) {
       setShowMenu(true);
@@ -65,7 +71,7 @@ const AppHeader = () => {
 
           {/* Theme switcher small screen */}
           <div
-            onClick={() => setTheme(activeTheme)}
+            onClick={() => toggleTheme(activeTheme)}
             aria-label="Theme Switcher"
             className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
           >
@@ -178,7 +184,7 @@ const AppHeader = () => {
 
           {/* Theme switcher large screen */}
           <div
-            onClick={() => setTheme(activeTheme)}
+            onClick={() => toggleTheme(activeTheme)}
             aria-label="Theme Switcher"
             className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
           >
