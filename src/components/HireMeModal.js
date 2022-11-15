@@ -1,29 +1,38 @@
 import { motion } from "framer-motion";
 import { FiX } from "react-icons/fi";
 import Button from "./reusable/Button";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const selectOptions = [
-  "Software Developer", 
+  "Software Developer",
   "Web Developer",
   "Game Developer",
   "Game Designer",
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
-const form = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_cyn6k0e', 'template_gef1dw1', form.current, 'bqJ7iIBNQJbUyjMQ1')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          console.log("message sent")
-      }, (error) => {
+          console.log("message sent");
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
 
   return (
@@ -52,7 +61,8 @@ const form = useRef();
               </button>
             </div>
             <div className="modal-body p-5 w-full h-full">
-              <form ref={form}
+              <form
+                ref={form}
                 onSubmit={sendEmail}
                 className="max-w-xl m-4 text-left"
               >
