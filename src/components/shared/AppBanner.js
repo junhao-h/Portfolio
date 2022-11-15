@@ -37,7 +37,9 @@ const AppBanner = () => {
           }}
           className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
         >
-          {activeTheme === "dark" ? "Developer and Designer by Day" : "Gamer by Night"}
+          {activeTheme === "dark"
+            ? "Developer and Designer by Day"
+            : "Gamer by Night"}
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -51,7 +53,7 @@ const AppBanner = () => {
         >
           <a
             download="JunHao-CV.pdf"
-            href="/files/JunHao-CV.pdf"
+            href="/portfolio/files/JunHao-CV.pdf"
             className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
             aria-label="Download Resume"
           >

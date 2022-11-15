@@ -22,7 +22,7 @@ const ProjectInfo = ({ singleProjectData }) => {
                   <span>{info?.title}: </span>
                   <a
                     href={info?.url}
-                    target="_blank"
+                    target="__blank"
                     className={
                       info?.title === "Website" || info?.title === "Phone"
                         ? "hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300"
