@@ -6,7 +6,9 @@ import emailjs from "@emailjs/browser";
 
 const selectOptions = [
   "Software Developer",
-  "Web Developer",
+  "Front End Developer",
+  "Back End Developer",
+  "Full Stack Developer",
   "Game Developer",
   "Game Designer",
 ];
