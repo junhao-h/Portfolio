@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.614cfc8d.css",
-    "main.js": "/portfolio/static/js/main.c1e327e1.js",
+    "main.js": "/portfolio/static/js/main.7aa67e27.js",
     "static/js/787.e1e9e5a0.chunk.js": "/portfolio/static/js/787.e1e9e5a0.chunk.js",
     "static/media/ARNav2.png": "/portfolio/static/media/ARNav2.c09551502e75183f0696.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4047c818d7c6516cabc2.jpg",
@@ -85,16 +85,16 @@
     "static/media/c.svg": "/portfolio/static/media/c.cac16519759a989016e400dd7786fbcb.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity.svg": "/portfolio/static/media/unity.17c0a8ba6bd995c851758f56a102e528.svg",
-    "static/media/up.mp4": "/portfolio/static/media/up.1fd98729d176a281f604.mp4",
     "static/media/andromedia.mp4": "/portfolio/static/media/andromedia.fdccd968227ef18d166d.mp4",
     "static/media/gravnav.mp4": "/portfolio/static/media/gravnav.991856609f7542f1bf31.mp4",
     "static/media/povertea.mp4": "/portfolio/static/media/povertea.111945d05c7fc96e9f93.mp4",
+    "static/media/up.mp4": "/portfolio/static/media/up.c7dc7c26a9330f388f4f.mp4",
     "main.614cfc8d.css.map": "/portfolio/static/css/main.614cfc8d.css.map",
-    "main.c1e327e1.js.map": "/portfolio/static/js/main.c1e327e1.js.map",
+    "main.7aa67e27.js.map": "/portfolio/static/js/main.7aa67e27.js.map",
     "787.e1e9e5a0.chunk.js.map": "/portfolio/static/js/787.e1e9e5a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.614cfc8d.css",
-    "static/js/main.c1e327e1.js"
+    "static/js/main.7aa67e27.js"
   ]
 }
