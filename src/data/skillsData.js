@@ -10,6 +10,8 @@ import Reacts from "../images/skills/react.svg";
 import Python from "../images/skills/python.svg";
 import Unity from "../images/skills/unity.svg";
 import Unreal from "../images/skills/unreal-engine.svg";
+import Blender from "../images/skills/blender.svg";
+import Figma from "../images/skills/figma.svg";
 
 export const skillsHeading = "Skills";
 
@@ -31,42 +33,52 @@ export const skillsData = [
   },
   {
     id: 4,
-    title: "HTML",
-    img: Html,
-  },
-  {
-    id: 5,
-    title: "CSS",
-    img: Css,
-  },
-  {
-    id: 6,
-    title: "JavaScript",
-    img: Js,
-  },
-  {
-    id: 7,
-    title: "TypeScript",
-    img: Ts,
-  },
-  {
-    id: 8,
-    title: "React",
-    img: Reacts,
-  },
-  {
-    id: 8,
     title: "Python",
     img: Python,
   },
   {
-    id: 8,
-    title: "Unreal",
-    img: Unreal,
+    id: 5,
+    title: "HTML",
+    img: Html,
+  },
+  {
+    id: 6,
+    title: "CSS",
+    img: Css,
+  },
+  {
+    id: 7,
+    title: "JavaScript",
+    img: Js,
   },
   {
     id: 8,
+    title: "TypeScript",
+    img: Ts,
+  },
+  {
+    id: 9,
+    title: "React",
+    img: Reacts,
+  },
+  {
+    id: 10,
+    title: "Unreal Engine",
+    img: Unreal,
+  },
+  {
+    id: 11,
     title: "Unity",
     img: Unity,
+  },
+  {
+    id: 12,
+    title: "Blender",
+    img: Blender,
+  },
+  {
+    id: 13,
+    title: "Figma",
+    img: Figma,
   },
 ];

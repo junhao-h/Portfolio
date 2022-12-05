@@ -6,6 +6,7 @@ import { SingleProjectProvider } from "../context/SingleProjectContext";
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import { singleProjectData } from "../data/singleProjectData";
+import ProjectVideo from "../components/projects/ProjectVideo";
 
 const ProjectSingle = () => {
   const { id } = useParams();
@@ -26,6 +27,7 @@ const ProjectSingle = () => {
         <ProjectHeader singleProjectData={pagedata} />
         <ProjectGallery singleProjectData={pagedata} />
         <ProjectInfo singleProjectData={pagedata} />
+        <ProjectVideo singleProjectData={pagedata} />
         <ProjectRelatedProjects singleProjectData={pagedata} />
       </SingleProjectProvider>
     </motion.div>

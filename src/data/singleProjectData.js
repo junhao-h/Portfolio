@@ -22,6 +22,10 @@ import GoodiiMm from "../images/goodiiMM.png";
 import Simplly1 from "../images/simplly1.png";
 import Simplly2 from "../images/simplly2.png";
 import Simplly3 from "../images/simplly3.png";
+import PoverteaVid from "../videos/povertea.mp4";
+import UpVid from "../videos/up.mp4";
+import PathBotVid from "../videos/andromedia.mp4";
+import GravNavVid from "../videos/gravnav.mp4";
 
 export const singleProjectData = {
   ouch: {
@@ -96,16 +100,19 @@ export const singleProjectData = {
           id: 1,
           title: "Povertea",
           img: PoverteaHome,
+          url: "povertea",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravPlay,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -175,23 +182,27 @@ export const singleProjectData = {
         },
       ],
     },
+    ProjectVideo: PoverteaVid,
     RelatedProject: {
       title: "Related Projects",
       Projects: [
         {
           id: 1,
-          title: "Ouch! Home",
+          title: "Ouch!",
           img: OuchHome,
+          url: "ouch",
         },
         {
           id: 2,
           title: "Grav-Nav",
           img: GravPlay,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -229,7 +240,8 @@ export const singleProjectData = {
         },
       ],
       ObjectivesHeading: "Objective",
-      ObjectivesDetails: "Create an AR navigation application with C# and Unity.",
+      ObjectivesDetails:
+        "Create an AR navigation application with C# and Unity.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -260,18 +272,21 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Ouch! Home",
+          title: "Ouch!",
           img: OuchHome,
+          url: "ouch",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravPlay,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -347,23 +362,27 @@ export const singleProjectData = {
         },
       ],
     },
+    ProjectVideo: GravNavVid,
     RelatedProject: {
       title: "Related Projects",
       Projects: [
         {
           id: 1,
-          title: "Ouch! Home",
+          title: "Ouch!",
           img: OuchHome,
+          url: "ouch",
         },
         {
           id: 2,
           title: "Povertea",
           img: PoverteaHome,
+          url: "povertea",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -445,23 +464,27 @@ export const singleProjectData = {
         },
       ],
     },
+    ProjectVideo: PathBotVid,
     RelatedProject: {
       title: "Related Projects",
       Projects: [
         {
           id: 1,
-          title: "Povertea Home",
+          title: "Povertea",
           img: PoverteaHome,
+          url: "povertea",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravPlay,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -545,23 +568,27 @@ export const singleProjectData = {
         },
       ],
     },
+    ProjectVideo: UpVid,
     RelatedProject: {
       title: "Related Projects",
       Projects: [
         {
           id: 1,
-          title: "Pathbot Home",
+          title: "Pathbo",
           img: PathCus,
+          url: "pathbot",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravPlay,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Povertea",
           img: PoverteaHome,
+          url: "povertea",
         },
       ],
     },
@@ -639,18 +666,21 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Ouch! Home",
-          img: OuchHome,
+          title: "Simplly",
+          img: Simplly1,
+          url: "simplly",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravHome,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
@@ -729,18 +759,21 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Ouch! Home",
-          img: OuchHome,
+          title: "Goodii",
+          img: GoodiiEn,
+          url: "goodii",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravHome,
+          url: "grav_nav",
         },
         {
           id: 3,
           title: "Up",
           img: UpHome,
+          url: "up",
         },
       ],
     },
