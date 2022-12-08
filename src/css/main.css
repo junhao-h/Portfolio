@@ -672,6 +672,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
+.content-center {
+  align-content: center;
+}
 .items-center {
   align-items: center;
 }

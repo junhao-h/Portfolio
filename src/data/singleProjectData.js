@@ -26,6 +26,7 @@ import PoverteaVid from "../videos/povertea.mp4";
 import UpVid from "../videos/up.mp4";
 import PathBotVid from "../videos/andromedia.mp4";
 import GravNavVid from "../videos/gravnav.mp4";
+import ARNavVid from "../videos/arnav.mp4";
 
 export const singleProjectData = {
   ouch: {
@@ -267,6 +268,7 @@ export const singleProjectData = {
         },
       ],
     },
+    ProjectVideo: ARNavVid,
     RelatedProject: {
       title: "Related Projects",
       Projects: [
