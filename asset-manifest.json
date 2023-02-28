@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3bc7766c.css",
-    "main.js": "/portfolio/static/js/main.0590686f.js",
+    "main.js": "/portfolio/static/js/main.20b1199e.js",
     "static/js/787.e1e9e5a0.chunk.js": "/portfolio/static/js/787.e1e9e5a0.chunk.js",
     "static/media/arnav.mp4": "/portfolio/static/media/arnav.f82ec9491c01d0e5f325.mp4",
     "static/media/gravnav.mp4": "/portfolio/static/media/gravnav.118e58ce8dee895aa804.mp4",
@@ -9,8 +9,11 @@
     "static/media/povertea.mp4": "/portfolio/static/media/povertea.2022a24d2d53a4c1981a.mp4",
     "static/media/andromedia.mp4": "/portfolio/static/media/andromedia.8630c238e7db020f5496.mp4",
     "static/media/ARNav2.png": "/portfolio/static/media/ARNav2.c09551502e75183f0696.png",
+    "static/media/MercedesWeb.png": "/portfolio/static/media/MercedesWeb.23458e9d8dd76228c905.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4047c818d7c6516cabc2.jpg",
+    "static/media/MercedesHub.png": "/portfolio/static/media/MercedesHub.2d227f7ce7f1fe632da9.png",
     "static/media/UpPlay.png": "/portfolio/static/media/UpPlay.708112c4d6018bd9620e.png",
+    "static/media/MercedesUnreal.png": "/portfolio/static/media/MercedesUnreal.3fc1aa1ab187a4be280a.png",
     "static/media/UpHome.png": "/portfolio/static/media/UpHome.4fab0bf69c029c934bc8.png",
     "static/media/UpEditor.png": "/portfolio/static/media/UpEditor.48f18dd851246fabbf2d.png",
     "static/media/PoverteaPlay.png": "/portfolio/static/media/PoverteaPlay.d8f0ddf381c371be9e11.png",
@@ -91,11 +94,11 @@
     "static/media/figma.svg": "/portfolio/static/media/figma.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity.svg": "/portfolio/static/media/unity.17c0a8ba6bd995c851758f56a102e528.svg",
     "main.3bc7766c.css.map": "/portfolio/static/css/main.3bc7766c.css.map",
-    "main.0590686f.js.map": "/portfolio/static/js/main.0590686f.js.map",
+    "main.20b1199e.js.map": "/portfolio/static/js/main.20b1199e.js.map",
     "787.e1e9e5a0.chunk.js.map": "/portfolio/static/js/787.e1e9e5a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bc7766c.css",
-    "static/js/main.0590686f.js"
+    "static/js/main.20b1199e.js"
   ]
 }
