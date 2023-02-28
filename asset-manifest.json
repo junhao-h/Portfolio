@@ -1,13 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3bc7766c.css",
-    "main.js": "/portfolio/static/js/main.20b1199e.js",
+    "main.js": "/portfolio/static/js/main.0e508910.js",
     "static/js/787.e1e9e5a0.chunk.js": "/portfolio/static/js/787.e1e9e5a0.chunk.js",
-    "static/media/arnav.mp4": "/portfolio/static/media/arnav.f82ec9491c01d0e5f325.mp4",
-    "static/media/gravnav.mp4": "/portfolio/static/media/gravnav.118e58ce8dee895aa804.mp4",
-    "static/media/up.mp4": "/portfolio/static/media/up.006c70f3b5037adff738.mp4",
-    "static/media/povertea.mp4": "/portfolio/static/media/povertea.2022a24d2d53a4c1981a.mp4",
-    "static/media/andromedia.mp4": "/portfolio/static/media/andromedia.8630c238e7db020f5496.mp4",
     "static/media/ARNav2.png": "/portfolio/static/media/ARNav2.c09551502e75183f0696.png",
     "static/media/MercedesWeb.png": "/portfolio/static/media/MercedesWeb.23458e9d8dd76228c905.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.4047c818d7c6516cabc2.jpg",
@@ -75,8 +70,8 @@
     "static/media/GeneralSans-Bold.woff2": "/portfolio/static/media/GeneralSans-Bold.64b1bf9966a3bbb94f5c.woff2",
     "static/media/GeneralSans-ExtralightItalic.woff2": "/portfolio/static/media/GeneralSans-ExtralightItalic.3d55e7e4573d13e89567.woff2",
     "static/media/GeneralSans-Extralight.woff2": "/portfolio/static/media/GeneralSans-Extralight.d6a4332df60f058537bf.woff2",
-    "static/media/developer-dark.svg": "/portfolio/static/media/developer-dark.aa2700b57c0b14ead116acc39d478609.svg",
-    "static/media/developer.svg": "/portfolio/static/media/developer.2f084608158c1db6dcc0b2c76a2806f7.svg",
+    "static/media/developer-dark.svg": "/portfolio/static/media/developer-dark.3f07bd13e2bd324f87466260088da040.svg",
+    "static/media/developer.svg": "/portfolio/static/media/developer.ef097afbc427c634086d2f1c2ad6032e.svg",
     "static/media/OuchLose.png": "/portfolio/static/media/OuchLose.6fe3259e072fe6632be8.png",
     "static/media/OuchHome.png": "/portfolio/static/media/OuchHome.be5cb92c3e669ebb52a3.png",
     "static/media/react.svg": "/portfolio/static/media/react.1520bd67b9711ed91ace46b169bc2491.svg",
@@ -93,12 +88,17 @@
     "static/media/c.svg": "/portfolio/static/media/c.cac16519759a989016e400dd7786fbcb.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.25abb591c3b89b3fa15743b91482f4a6.svg",
     "static/media/unity.svg": "/portfolio/static/media/unity.17c0a8ba6bd995c851758f56a102e528.svg",
+    "static/media/arnav.mp4": "/portfolio/static/media/arnav.667195e9fbf80d7905d0.mp4",
+    "static/media/gravnav.mp4": "/portfolio/static/media/gravnav.991856609f7542f1bf31.mp4",
+    "static/media/povertea.mp4": "/portfolio/static/media/povertea.111945d05c7fc96e9f93.mp4",
+    "static/media/up.mp4": "/portfolio/static/media/up.c7dc7c26a9330f388f4f.mp4",
+    "static/media/andromedia.mp4": "/portfolio/static/media/andromedia.28f32f96bc27b9d363ff.mp4",
     "main.3bc7766c.css.map": "/portfolio/static/css/main.3bc7766c.css.map",
-    "main.20b1199e.js.map": "/portfolio/static/js/main.20b1199e.js.map",
+    "main.0e508910.js.map": "/portfolio/static/js/main.0e508910.js.map",
     "787.e1e9e5a0.chunk.js.map": "/portfolio/static/js/787.e1e9e5a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bc7766c.css",
-    "static/js/main.20b1199e.js"
+    "static/js/main.0e508910.js"
   ]
 }
