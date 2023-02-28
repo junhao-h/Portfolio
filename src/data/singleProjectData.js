@@ -22,6 +22,9 @@ import GoodiiMm from "../images/goodiiMM.png";
 import Simplly1 from "../images/simplly1.png";
 import Simplly2 from "../images/simplly2.png";
 import Simplly3 from "../images/simplly3.png";
+import MercedesHub from "../images/MercedesHub.png";
+import MercedesUnreal from "../images/MercedesUnreal.png";
+import MercedesWeb from "../images/MercedesWeb.png";
 import PoverteaVid from "../videos/povertea.mp4";
 import UpVid from "../videos/up.mp4";
 import PathBotVid from "../videos/andromedia.mp4";
@@ -753,6 +756,99 @@ export const singleProjectData = {
           id: 1,
           details:
             "There is a greater emphasis on making the website feel more responsive. Breakpoints are used more intentionally to adjust how the page looks based on the screen width. This website is where I learn about Firebase cloud functions and other backend development.",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "Goodii",
+          img: GoodiiEn,
+          url: "goodii",
+        },
+        {
+          id: 2,
+          title: "Grav Nav",
+          img: GravHome,
+          url: "grav_nav",
+        },
+        {
+          id: 3,
+          title: "Up",
+          img: UpHome,
+          url: "up",
+        },
+      ],
+    },
+  },
+  mercedes: {
+    ProjectHeader: {
+      title: "Mercedes-Benz Immersive Showroom",
+      duration: "In development",
+      tags: "Website",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Mercedes on web",
+        img: MercedesHub,
+      },
+      {
+        id: 2,
+        title: "Car configurator Project from Unreal",
+        img: MercedesUnreal,
+      },
+      {
+        id: 3,
+        title: "Mercedes Project over network with different resolutions",
+        img: MercedesWeb,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "Company",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Company Name",
+          details: "Inspify",
+          url: "https://inspify.com/",
+        },
+        {
+          id: 1,
+          title: "My Role",
+          details: "Unreal & Front End Developer",
+        },
+        {
+          id: 1,
+          title: "Website",
+          details: "Mercedes Immersive Showroom",
+          url: "https://web-dev-b.inspify.io/virtualboutique/56f3c4c9-04c3-479d-8742-a19902a51621",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "Create and deploy a multinational static website with React and NextJs.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "React",
+            "Typescript",
+            "CSS",
+            "Unreal Engine 5.1",
+            "Pixelstreaming",
+            "AWS",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Concept",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "A project where both my Unreal engine and front-end experience are applied. The project started with taking the car configurator sample in Unreal engine and changing the assets to that of a Mercedes Benz EQE350. The project runs on a Linux server in the cloud using Pixel Streaming. The application is then streamed on the web browser. The UI is migrated from Unreal to the webpage by overlaying React, Typescript, and CSS code over the iframe. All this creates an immersive photorealistic 3D experience that can be enjoyed on any device.",
         },
       ],
     },

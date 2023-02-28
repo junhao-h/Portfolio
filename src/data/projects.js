@@ -7,6 +7,7 @@ import GravNav from "../images/GravPlay.png";
 import PathBot from "../images/pathbotCustom.png";
 import Up from "../images/UpHome.png";
 import Simplly from "../images/simplly1.png";
+import Mercedes from "../images/MercedesUnreal.png";
 
 export const projectsData = [
   {
@@ -69,5 +70,12 @@ export const projectsData = [
     key: "simplly",
     category: "Web Application",
     img: Simplly,
+  },
+  {
+    id: 9,
+    title: "Mercedes Immersive Showroom",
+    key: "mercedes",
+    category: "Web Application",
+    img: Mercedes,
   },
 ];
