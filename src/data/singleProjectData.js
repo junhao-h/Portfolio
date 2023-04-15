@@ -83,17 +83,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Ouch! is a 2D puzzle game located in a laboratory where animal experimentation is performed. The game starts with the player waking up to find all the animals breaking out of their cage. Without knowing anything, the objective of the player is to escape the chaotic laboratory and find out the mysteries behind this place.",
+            "Ouch! is a 2D puzzle game made on window's console that is build with C++. It takes place in a laboratory where animal experimentation is performed. The game begins with the player awakening to find all the animals escaping from their cages. With no prior knowledge, the player's objective is to escape the chaotic laboratory and uncover the mysteries behind the facility.",
         },
         {
           id: 2,
           details:
-            "In this game, all animals are hostile and will kill the player if the player were to touch them. The player is introduced with the ability to possess the animals in his line of sight, this allows the player to control the animal to use their innate ability to solve the puzzle.",
+            "In the game, all animals are hostile and will attack the player upon contact. However, the player is introduced to the unique ability to possess animals within their line of sight, enabling them to control the animals and use their innate abilities to solve puzzles.",
         },
         {
           id: 3,
           details:
-            "The game ends with the player realizing that he is the mad scientist behind this unethical research laboratory.",
+            "As the player progresses through the game, they encounter challenging obstacles and puzzles that require strategic thinking and quick reflexes. But the game's storyline takes an unexpected twist towards the end, as the player discovers that they are the mad scientist responsible for the unethical research conducted in the laboratory.",
         },
       ],
     },
@@ -172,17 +172,27 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Povertea is a 2D top-down, endless beverage shop management simulator. The player runs a beverage cafe and has to manage orders, concoct drinks and serve customers. All while having to achieve a target profit or lose the game by running out of money.",
+            "Povertea is an exciting 2D top-down simulator game that allows players to run their own beverage cafe. In this endless game, the player must manage orders, create unique drinks, and serve customers, all while ensuring they reach their target profit or face the risk of going bankrupt.",
         },
         {
           id: 2,
           details:
-            "The main inspiration behind Povertea is Overcooked with financial management. With the intention of not running out of money in mind, the player's goal is just to end the day without a net loss. Customers are the only source of income for the player, however, they can penalize the player if they do not obtain their drinks after a certain duration. In Povertea, many of the players' interactions require a certain form of transaction, the player can lose money by just picking up a new cup or using any ingredients to concoct the drinks. Hence the player has to be careful not to waste money concocting the wrong drinks.",
+            "The game takes inspiration from Overcooked, blending the thrill of running a busy cafe with financial management. To succeed in Povertea, the player must keep a keen eye on their finances, striving to end each day without a net loss. Customers are the sole source of income, but they can also penalize the player if their orders aren't met within a specific time frame.",
         },
         {
           id: 3,
           details:
-            "Later into the game, the drinks the customer asks for comes in a wide range of colour shades. To achieve the customers' demand the player has to mix and match the drink, to get the right shade of colour.",
+            "Throughout the game, players must navigate a series of financial challenges, with many interactions requiring transactions that could result in the loss of money. For instance, players can lose money just by picking up a new cup or using incorrect ingredients to create a drink. Therefore, it is essential to be cautious not to waste money on wrong concoctions.",
+        },
+        {
+          id: 4,
+          details:
+            "As the game progresses, customers' requests become increasingly complex, with different shades of colors being required to create the perfect drink. The player must mix and match ingredients to get the desired color, giving the game an added layer of complexity.",
+        },
+        {
+          id: 5,
+          details:
+            "Overall, Povertea is a fun and challenging game that tests the player's financial management and beverage-making skills. The game is suitable for players of all ages and offers a unique and immersive experience in the beverage industry.",
         },
       ],
     },
@@ -257,17 +267,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Problem: Digipen classroom names are confusing, students have to constantly look up the classroom location as the classroom name does not explain much!",
+            "The problem at hand was that Digipen classroom names were confusing, making it difficult for students to locate their designated classrooms without constantly looking them up. To address this issue, an AR indoor pathfinding application was developed that could track the user's current location and guide them to their classroom.",
         },
         {
           id: 2,
           details:
-            "Solution: Make an AR indoor pathfinding application that tracks the user's current location and leads them to their designated classroom. The application uses cloud anchors as nodes to perform the Bellman-Ford algorithm to get the shortest path to their destination.",
+            "The application utilized cloud anchors as nodes, allowing it to perform the Bellman-Ford algorithm and determine the shortest path to the user's destination. However, due to time constraints, the cloud anchors had to be hard-coded into the application, which presented some challenges.",
         },
         {
           id: 3,
           details:
-            "Challenges: Due to time constraints, Cloud Anchors had to be hard coded into the application.",
+            "Despite these challenges, the AR pathfinding application was successful in providing a user-friendly solution to the confusing classroom names at Digipen.",
         },
       ],
     },
@@ -358,12 +368,17 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Grav-Nav is built with a custom 2D game editor built with ImGui. The game engine follows Unity's layout so that the designers have an easier time using the game engine. The Game Engine uses custom ECS for data management and for scripting C++ is used as everyone in the team is proficient in C++.",
+            "Grav-Nav is a 2D puzzle platformer game that utilizes a custom 2D game engine built with C++ and ImGui. The game engine has a similar layout to Unity, which makes it easier for designers to use. The engine uses a custom Entity Component System (ECS) for data management, and C++ is used for scripting since everyone in the team is proficient in it.",
         },
         {
           id: 2,
           details:
-            "Grav-Nav is a 2D puzzle platformer game where the player can manipulate gravity to solve puzzles. The gravity only affects the player initially, but as the game progress more obstacles are introduced and some of the obstacles move along with the gravity change.",
+            "The player in Grav-Nav can manipulate gravity to solve puzzles, which adds a unique twist to the gameplay. Initially, the gravity only affects the player, but as the game progresses, new obstacles are introduced, and some of them move along with the change in gravity. This adds complexity to the puzzles, making them more challenging and engaging for players.",
+        },
+        {
+          id: 2,
+          details:
+            "Overall, Grav-Nav is an excellent showcase of our create a game engine and building a game with it. It demonstrates the importance of having a well-designed engine that is easy to use for designers, as well as the benefits of using ECS for data management in game development.",
         },
       ],
     },
@@ -455,17 +470,12 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "Singapore has militarized its land to prevent foreign forces from invading its territory with the help of Artificial Intelligence. However, a glitch in the system has turned the AI hostile! To rectify the situation, the developer of the AI has to get access to the server and fix the glitch. Project PATHBOT is an operation to create a machine that can path itself to the command centre.",
+            "PATHBOT is a 3D reverse tower defense game with two unique phases, designed to simulate the challenge of reaching the command center in a militarized zone. The first phase of the game requires the player to customize and build a machine, which will be used to clear an obstacle course in the second phase.",
         },
         {
           id: 2,
           details:
-            "PathBot is a 3D reverse tower defence game with 2 unique phases. The first phase requires the player to customize and build a machine. While the second phase is when the machine is deployed to clear an obstacle course.",
-        },
-        {
-          id: 3,
-          details:
-            "In this game, the game has to be built on our custom 3D editor. Hence we have to build an in-game editor with our game engine which is quite a challenge. Although we manage to get the gameplay to work, too much manpower is spent on making the game work instead of making it fun. Hence this game is a failed project purely due to the neglect of the game design.",
+            "To support the development of this game, we built a custom 3D editor and an in-game editor using our game engine. Although we successfully implemented the gameplay mechanics, we failed to invest enough effort into game design, resulting in a lack of fun for players. As a result, PATHBOT did not meet our expectations within the given time frame and was deemed a failed project.",
         },
       ],
     },
@@ -559,17 +569,12 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "The player is the sole engineer maintaining a toy island. However, the security system malfunctioned and the island starts to run amok. To calm things down, the engineer has to go to the island and reset the control unit at the clock tower.",
+            "UP is a first-person puzzle game set in a Ludibrum-inspired toy island, where the player assumes the role of the sole engineer responsible for maintaining the island. However, a malfunction in the island's security system causes chaos, and the player must scale a tower to reset the control unit at the clock tower, in order to restore order.",
         },
         {
           id: 2,
           details:
-            "UP is a first-person puzzle in a Ludibrum-inspired setting where the player scales a tower to fix the clock tower. The main game mechanic of the game revolves around the vacuum gun where the player can suck objects from afar and can disassemble the parts to build platforms.",
-        },
-        {
-          id: 3,
-          details:
-            "The game is built with a custom 3D game engine. Despite how the game looks, the game is not made by any artist, everything is done by developers.",
+            "The main gameplay mechanic in UP is the vacuum gun, which allows the player to suck objects from a distance and disassemble them to create platforms. The game is built on a custom 3D game engine, and despite its impressive visuals, it was developed entirely by programmers, without the assistance of any artists.",
         },
       ],
     },
@@ -662,7 +667,7 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "My first experience in creating a website. The website uses Strapi to manage the backend database to store all the data. The website needs to take into consideration multi-language support, hence there needs to be language-switching support. The website uses i18n initially for international routing, however, i18n does not support export. Hence, I have to develop a custom method to reroute for static side generation.",
+            "When I first started creating a website, I faced a number of challenges related to multi-language support and static side generation. To address these issues, I used Strapi to manage the backend database, and incorporated i18n for international routing. However, I quickly realized that i18n did not support export, which presented a major obstacle in generating static pages. To overcome this limitation, I had to develop a custom method for rerouting, which allowed me to generate the static pages needed for the website. Ultimately, this project taught me a lot about the complexities of web development and the importance of being adaptable in the face of unexpected challenges.",
         },
       ],
     },
@@ -755,7 +760,12 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "There is a greater emphasis on making the website feel more responsive. Breakpoints are used more intentionally to adjust how the page looks based on the screen width. This website is where I learn about Firebase cloud functions and other backend development.",
+            "As I worked on my website project, I learned the importance of creating a responsive design that adapts well to different screen sizes. To achieve this, I made strategic use of breakpoints to adjust the layout and optimize the user experience on different devices.",
+        },
+        {
+          id: 2,
+          details:
+            "Moreover, I took the opportunity to delve into backend development by using Firebase cloud functions to handle server-side logic for the website. This allowed me to enhance the functionality of the website and create a more robust and dynamic user experience. Overall, this project helped me gain valuable experience in both frontend and backend development, which I can apply to future projects.",
         },
       ],
     },
@@ -785,14 +795,14 @@ export const singleProjectData = {
   },
   mercedes: {
     ProjectHeader: {
-      title: "Mercedes-Benz Immersive Showroom",
-      duration: "In development",
+      title: "Car Configurator with Pixelstreaming",
+      duration: "3 Months",
       tags: "Website",
     },
     ProjectImages: [
       {
         id: 1,
-        title: "Mercedes on web",
+        title: "Car Configurator on web",
         img: MercedesHub,
       },
       {
@@ -818,18 +828,19 @@ export const singleProjectData = {
         {
           id: 1,
           title: "My Role",
-          details: "Unreal & Front End Developer",
+          details:
+            "I was reposisble for overseeing the entire Mercedes Project",
         },
         {
           id: 1,
           title: "Website",
           details: "Mercedes Immersive Showroom",
-          url: "https://web-dev-b.inspify.io/virtualboutique/56f3c4c9-04c3-479d-8742-a19902a51621",
+          url: "https://app.inspify.com/mercedes-benz",
         },
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        "Create and deploy a multinational static website with React and NextJs.",
+        "Deploying an unreal application on the web that can be streamed to all device using pixel streaming.",
       Technologies: [
         {
           title: "Tools & Technologies",
@@ -848,7 +859,32 @@ export const singleProjectData = {
         {
           id: 1,
           details:
-            "A project where both my Unreal engine and front-end experience are applied. The project started with taking the car configurator sample in Unreal engine and changing the assets to that of a Mercedes Benz EQE350. The project runs on a Linux server in the cloud using Pixel Streaming. The application is then streamed on the web browser. The UI is migrated from Unreal to the webpage by overlaying React, Typescript, and CSS code over the iframe. All this creates an immersive photorealistic 3D experience that can be enjoyed on any device.",
+            "I worked on a project that aimed to showcase car products to multiple clients through the Inspify meeting platform. To achieve this goal, I took the car configurator sample in Unreal Engine and modified it to feature the Mercedes Benz EQE350 assets.",
+        },
+        {
+          id: 2,
+          details:
+            "To ensure the configurator could be accessed by multiple clients, I utilized Pixel Streaming to stream the experience from a Linux server in the cloud to web browsers. However, I encountered issues with resolution and orientation, so I modified the pixel streaming signaling server to compute different resolutions for different devices.",
+        },
+        {
+          id: 3,
+          details:
+            "To further enhance the user experience, I migrated the UI from Unreal Engine to the webpage using React, Typescript, and CSS code, overlaying it over the iframe to cater for resolution and orientation changes. With the UI on React, I was able to send messages to the Unreal project to make changes and ensure a synchronized experience for all users.",
+        },
+        {
+          id: 4,
+          details:
+            "I also added touch input on the Unreal end to ensure that all devices could interact with the experience, regardless of whether they were using a mouse or touch screen.",
+        },
+        {
+          id: 5,
+          details:
+            "This project taught me the importance of being flexible and adaptable in software development. I encountered several challenges along the way, but by leveraging different tools and technologies, I was able to find innovative solutions to overcome them.",
+        },
+        {
+          id: 6,
+          details:
+            "Overall, the project was a great learning experience that allowed me to gain expertise in utilizing Pixel Streaming, React, Typescript, and CSS to create a seamless user experience across multiple devices. It also taught me to use ChatGPT to get more clarity of Unreal Engine's functionality as it is not well documented.",
         },
       ],
     },

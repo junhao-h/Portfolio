@@ -1,7 +1,7 @@
 export const aboutMeData = [
   {
     id: 1,
-    bio: "Hi, I'm Ho Jun Hao, I just graduate from Digipen where I learn to be both a software developer and designer. I have built and designed multiple games and game engines using C/C++ during my time in school.",
+    bio: "Hi, I'm Ho Jun Hao, I am a fresh graduate from Digipen where I learn to be both a software developer and designer. I have built and designed multiple games and game engines using C/C++ during my time in school.",
   },
   {
     id: 2,
