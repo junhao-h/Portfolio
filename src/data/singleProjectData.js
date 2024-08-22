@@ -16,15 +16,15 @@ import ARCore from "../images/arcore.png";
 import PathCus from "../images/pathbotCustom.png";
 import PathSim from "../images/pathbotPlay.png";
 import PathDemo from "../images/pathbotDemo.png";
-import GoodiiEn from "../images/goodiiEN.png";
-import GoodiiVn from "../images/goodiiVN.png";
-import GoodiiMm from "../images/goodiiMM.png";
 import Simplly1 from "../images/simplly1.png";
 import Simplly2 from "../images/simplly2.png";
 import Simplly3 from "../images/simplly3.png";
 import MercedesHub from "../images/MercedesHub.png";
 import MercedesUnreal from "../images/MercedesUnreal.png";
 import MercedesWeb from "../images/MercedesWeb.png";
+import MemoryFacade from "../images/memory_facade.png";
+import MemoryMP from "../images/memory_mp.png";
+import MemoryAerial from "../images/memoryAerial.png";
 import PoverteaVid from "../videos/povertea.mp4";
 import UpVid from "../videos/up.mp4";
 import PathBotVid from "../videos/andromedia.mp4";
@@ -584,7 +584,7 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Pathbo",
+          title: "Pathbot",
           img: PathCus,
           url: "pathbot",
         },
@@ -599,98 +599,6 @@ export const singleProjectData = {
           title: "Povertea",
           img: PoverteaHome,
           url: "povertea",
-        },
-      ],
-    },
-  },
-  goodii: {
-    ProjectHeader: {
-      title: "Goodii",
-      duration: "1 Months",
-      tags: "Website",
-    },
-    ProjectImages: [
-      {
-        id: 1,
-        title: "Goodii English",
-        img: GoodiiEn,
-      },
-      {
-        id: 2,
-        title: "Goodii Vietnam",
-        img: GoodiiVn,
-      },
-      {
-        id: 3,
-        title: "Goodii Myanmmar",
-        img: GoodiiMm,
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "Company",
-      CompanyInfo: [
-        {
-          id: 1,
-          title: "Company Name",
-          details: "Growfi",
-        },
-        {
-          id: 1,
-          title: "My Role",
-          details: "Full Stack Developer",
-        },
-        {
-          id: 1,
-          title: "Website",
-          details: "goodii.app",
-          url: "https://www.goodii.app/en/",
-        },
-      ],
-      ObjectivesHeading: "Objective",
-      ObjectivesDetails:
-        "Create and deploy a multinational static website with React and NextJs.",
-      Technologies: [
-        {
-          title: "Tools & Technologies",
-          techs: [
-            "React",
-            "Typescript",
-            "Tailwind",
-            "NextJS",
-            "Strapi",
-            "DigitalOceans",
-          ],
-        },
-      ],
-      ProjectDetailsHeading: "Concept",
-      ProjectDetails: [
-        {
-          id: 1,
-          details:
-            "When I first started creating a website, I faced a number of challenges related to multi-language support and static side generation. To address these issues, I used Strapi to manage the backend database, and incorporated i18n for international routing. However, I quickly realized that i18n did not support export, which presented a major obstacle in generating static pages. To overcome this limitation, I had to develop a custom method for rerouting, which allowed me to generate the static pages needed for the website. Ultimately, this project taught me a lot about the complexities of web development and the importance of being adaptable in the face of unexpected challenges.",
-        },
-      ],
-    },
-    RelatedProject: {
-      title: "Related Projects",
-      Projects: [
-        {
-          id: 1,
-          title: "Simplly",
-          img: Simplly1,
-          url: "simplly",
-        },
-        {
-          id: 2,
-          title: "Grav Nav",
-          img: GravHome,
-          url: "grav_nav",
-        },
-        {
-          id: 3,
-          title: "Up",
-          img: UpHome,
-          url: "up",
         },
       ],
     },
@@ -767,6 +675,11 @@ export const singleProjectData = {
           details:
             "Moreover, I took the opportunity to delve into backend development by using Firebase cloud functions to handle server-side logic for the website. This allowed me to enhance the functionality of the website and create a more robust and dynamic user experience. Overall, this project helped me gain valuable experience in both frontend and backend development, which I can apply to future projects.",
         },
+        {
+          id: 3,
+          details:
+            "I also have to figure out how to switch langugage as this webpage will be used by multiple different countries. Note that this webpage will not be hosted for long following the company shutdown.",
+        },
       ],
     },
     RelatedProject: {
@@ -774,21 +687,21 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Goodii",
-          img: GoodiiEn,
-          url: "goodii",
-        },
-        {
-          id: 2,
           title: "Grav Nav",
           img: GravHome,
           url: "grav_nav",
         },
         {
-          id: 3,
+          id: 2,
           title: "Up",
           img: UpHome,
           url: "up",
+        },
+        {
+          id: 3,
+          title: "Mercedes Immersive Showroom",
+          img: MercedesUnreal,
+          url: "mercedes",
         },
       ],
     },
@@ -829,7 +742,7 @@ export const singleProjectData = {
           id: 1,
           title: "My Role",
           details:
-            "I was reposisble for overseeing the entire Mercedes Project",
+            "I was reponsible for overseeing the entire Mercedes Project",
         },
         {
           id: 1,
@@ -893,15 +806,133 @@ export const singleProjectData = {
       Projects: [
         {
           id: 1,
-          title: "Goodii",
-          img: GoodiiEn,
-          url: "goodii",
+          title: "simplly",
+          img: Simplly1,
+          url: "simplly",
         },
         {
           id: 2,
           title: "Grav Nav",
           img: GravHome,
           url: "grav_nav",
+        },
+        {
+          id: 3,
+          title: "Up",
+          img: UpHome,
+          url: "up",
+        },
+      ],
+    },
+  },  
+  memory: {
+    ProjectHeader: {
+      title: "SIT Digital Campus Memory Vault",
+      duration: "6 Months",
+      tags: "Website",
+    },
+    ProjectImages: [
+      {
+        id: 1,
+        title: "Aerial 360 Drone Shot for our campus building",
+        img: MemoryAerial,
+      },
+      {
+        id: 2,
+        title: "Matterport space for the building",
+        img: MemoryMP,
+      },
+      {
+        id: 3,
+        title: "3D model overlay on the Matterport space",
+        img: MemoryFacade,
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "Company",
+      CompanyInfo: [
+        {
+          id: 1,
+          title: "Company Name",
+          details: "Singapore Institute of Technology",
+          url: "https://www.singaporetech.edu.sg/",
+        },
+        {
+          id: 1,
+          title: "My Role",
+          details:
+            "Project manage and develop the SIT Digital Campus Memory Vault"
+        },
+        {
+          id: 1,
+          title: "Website",
+          details: "SIT Digital Campus Memory Vault ",
+          url: "https://memory.universesity.org/",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        "Deploying an unreal application on the web that can be streamed to all device using pixel streaming.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "React",
+            "Javascript",
+            "CSS",
+            "Matterport",
+            "AWS",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Concept",
+      ProjectDetails: [
+        {
+          id: 1,
+          details:
+            "SIT is moving to Punggol in 2024, with the move we will vacate all the existing campus. Hence, CoDE launched an initiative to preserve memories for of its campus with 3D scanning.",
+        },
+        {
+          id: 2,
+          details:
+            "I am in charge for the development for this project, and it all starts with recruiting and managing student helpers to help with the 3D scanning using the Matterport Pro 3 camera.",
+        },
+        {
+          id: 3,
+          details:
+            "While Matterport camera can capture the indoors easily, it struggle with capturing the outdoor facade for the building. Hence we have other strategies to show off the external buildings.",
+        },
+        {
+          id: 4,
+          details:
+            "I have engaged an external vendor to fly a drone to take 360 picture of all 6 SIT buildings, while applying for all the necessary permits to make this happen.",
+        },
+        {
+          id: 5,
+          details:
+            "I also get some students to help create 3D models for the various SIT buildings, I then have to research on how to integrate the 3D models into the webpage by code using Matterport SDK.",
+        },
+        {
+          id: 6,
+          details:
+            "I manage to find a matterport SDK example to modify from to achieve the facade model integration with the matteport space.",
+        },
+      ],
+    },
+    RelatedProject: {
+      title: "Related Projects",
+      Projects: [
+        {
+          id: 1,
+          title: "simplly",
+          img: Simplly1,
+          url: "simplly",
+        },
+        {
+          id: 2,
+          title: "Mercedes Immersive Showroom",
+          img: MercedesUnreal,
+          url: "mercedes",
         },
         {
           id: 3,

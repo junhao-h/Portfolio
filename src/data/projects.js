@@ -1,6 +1,5 @@
 // Import images
 import Ouch from "../images/OuchHome.png";
-import Goodii from "../images/goodiiEN.png";
 import Povertea from "../images/PoverteaHome.png";
 import ARNav from "../images/ARNav.png";
 import GravNav from "../images/GravPlay.png";
@@ -8,6 +7,7 @@ import PathBot from "../images/pathbotCustom.png";
 import Up from "../images/UpHome.png";
 import Simplly from "../images/simplly1.png";
 import Mercedes from "../images/MercedesUnreal.png";
+import memoryAerial from  "../images/memoryAerial.png"
 
 export const projectsData = [
   {
@@ -59,23 +59,23 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Goodii",
-    key: "goodii",
-    category: "Web Application",
-    img: Goodii,
-  },
-  {
-    id: 8,
     title: "Simplly",
     key: "simplly",
     category: "Web Application",
     img: Simplly,
   },
   {
-    id: 9,
+    id: 8,
     title: "Mercedes Immersive Showroom",
     key: "mercedes",
     category: "Web Application",
     img: Mercedes,
+  },
+  {
+    id: 9,
+    title: "SIT Digital Campus Memory Vault",
+    key: "memory",
+    category: "Web Application",
+    img: memoryAerial,
   },
 ];
